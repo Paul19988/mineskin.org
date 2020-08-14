@@ -6,7 +6,7 @@
             <div class="col s12 m9">
                 <h3>Select Skin</h3>
 
-                <form class="col s12" name="uploadForm">
+                <form class="col s6" name="uploadForm">
                     <div class="row">
                         <div ng-show="!skinUrl && !skinUser" class="input-field file-field col s12">
                             <div ngf-drop ng-model="skinUpload" class="drop-box">
@@ -41,7 +41,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col s12 m3 right">
+            <div class="col s6 m3 right">
                 <iframe id="skinRender" frameborder="0" style="display: none;min-height:450px;max-height:500px; min-width:200px;max-width:220px;"></iframe>
                 <script>
                     $(document).ready(function () {
